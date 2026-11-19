@@ -1,0 +1,522 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cursos e treinamentos para desenvolver habilidades e impulsionar sua carreira.">
+    <title>Academia Pro | Cursos e Treinamentos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- MENU PRINCIPAL -->
+    <header class="topo">
+        <div class="container menu">
+            <a href="#inicio" class="logo">ACADEMIA<span>PRO.</span></a>
+
+            <nav aria-label="Menu principal">
+                <a href="#inicio">Início</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#inscricao" class="menu-botao">Inscreva-se</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="hero" id="inicio">
+            <div class="container hero-conteudo">
+
+                <div class="hero-texto">
+                    <span class="etiqueta">EDUCAÇÃO QUE TRANSFORMA</span>
+
+                    <h1>Seu futuro começa com <span>conhecimento.</span></h1>
+
+                    <p>
+                        Desenvolva novas habilidades, aprenda com conteúdos
+                        atualizados e prepare-se para conquistar novas
+                        oportunidades profissionais.
+                    </p>
+
+                    <div class="hero-botoes">
+                        <a href="#cursos" class="botao principal">
+                            Explorar cursos →
+                        </a>
+
+                        <a href="#sobre" class="botao secundario">
+                            Conheça a plataforma
+                        </a>
+                    </div>
+
+                    <div class="numeros">
+                        <div>
+                            <strong>+20</strong>
+                            <span>Treinamentos</span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Foco no aprendizado</span>
+                        </div>
+
+                        <div>
+                            <strong>Online</strong>
+                            <span>Estude de onde quiser</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-imagem">
+                    <img
+                        src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=900"
+                        alt="Alunos participando de uma aula em ambiente de treinamento."
+                    >
+
+                    <div class="imagem-legenda">
+                        <strong>Aprenda. Evolua. Conquiste.</strong>
+                        <span>Invista no seu desenvolvimento.</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CURSOS -->
+        <section class="secao cursos" id="cursos">
+
+            <div class="container">
+
+                <div class="titulo-secao">
+                    <span class="etiqueta">NOSSA PLATAFORMA</span>
+                    <h2>Encontre o curso ideal para você</h2>
+                    <p>
+                        Conhecimento para desenvolver seu potencial
+                        e transformar sua carreira.
+                    </p>
+                </div>
+
+                <!-- FILTROS -->
+                <div class="filtros" aria-label="Filtrar cursos">
+                    <button type="button" class="filtro ativo" data-categoria="todos">
+                        Todos
+                    </button>
+
+                    <button type="button" class="filtro" data-categoria="tecnologia">
+                        Tecnologia
+                    </button>
+
+                    <button type="button" class="filtro" data-categoria="gestao">
+                        Gestão
+                    </button>
+
+                    <button type="button" class="filtro" data-categoria="desenvolvimento">
+                        Desenvolvimento
+                    </button>
+                </div>
+
+                <!-- CARDS DOS CURSOS -->
+                <div class="grade-cursos">
+
+                    <article class="curso-card" data-categoria="tecnologia">
+                        <div class="curso-imagem">
+                            <img
+                                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
+                                alt="Pessoa utilizando notebook para estudar tecnologia."
+                            >
+                            <span class="categoria">Tecnologia</span>
+                        </div>
+
+                        <div class="curso-conteudo">
+                            <span class="nivel">INICIANTE</span>
+                            <h3>Informática Básica</h3>
+                            <p>
+                                Aprenda a utilizar computadores, ferramentas
+                                digitais e programas essenciais.
+                            </p>
+                            <a href="#inscricao" class="curso-link"
+                               data-curso="Informática Básica">
+                                Quero conhecer →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="curso-card" data-categoria="desenvolvimento">
+                        <div class="curso-imagem">
+                            <img
+                                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                                alt="Mesa de trabalho com computador utilizado para desenvolvimento web."
+                            >
+                            <span class="categoria">Desenvolvimento</span>
+                        </div>
+
+                        <div class="curso-conteudo">
+                            <span class="nivel">INICIANTE</span>
+                            <h3>Desenvolvimento Web</h3>
+                            <p>
+                                Aprenda HTML, CSS e JavaScript e desenvolva
+                                seus próprios sites.
+                            </p>
+                            <a href="#inscricao" class="curso-link"
+                               data-curso="Desenvolvimento Web">
+                                Quero conhecer →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="curso-card" data-categoria="tecnologia">
+                        <div class="curso-imagem">
+                            <img
+                                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600"
+                                alt="Código de programação exibido na tela de um computador."
+                            >
+                            <span class="categoria">Tecnologia</span>
+                        </div>
+
+                        <div class="curso-conteudo">
+                            <span class="nivel">INTERMEDIÁRIO</span>
+                            <h3>Lógica de Programação</h3>
+                            <p>
+                                Desenvolva raciocínio lógico e aprenda
+                                os fundamentos da programação.
+                            </p>
+                            <a href="#inscricao" class="curso-link"
+                               data-curso="Lógica de Programação">
+                                Quero conhecer →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="curso-card" data-categoria="gestao">
+                        <div class="curso-imagem">
+                            <img
+                                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600"
+                                alt="Equipe profissional trabalhando em conjunto em um escritório."
+                            >
+                            <span class="categoria">Gestão</span>
+                        </div>
+
+                        <div class="curso-conteudo">
+                            <span class="nivel">INICIANTE</span>
+                            <h3>Gestão e Administração</h3>
+                            <p>
+                                Aprenda sobre organização, planejamento
+                                e rotinas administrativas.
+                            </p>
+                            <a href="#inscricao" class="curso-link"
+                               data-curso="Gestão e Administração">
+                                Quero conhecer →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="curso-card" data-categoria="desenvolvimento">
+                        <div class="curso-imagem">
+                            <img
+                                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600"
+                                alt="Profissionais participando de reunião e planejamento de projetos."
+                            >
+                            <span class="categoria">Desenvolvimento</span>
+                        </div>
+
+                        <div class="curso-conteudo">
+                            <span class="nivel">INICIANTE</span>
+                            <h3>Desenvolvimento Profissional</h3>
+                            <p>
+                                Desenvolva comunicação, produtividade
+                                e competências profissionais.
+                            </p>
+                            <a href="#inscricao" class="curso-link"
+                               data-curso="Desenvolvimento Profissional">
+                                Quero conhecer →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="curso-card" data-categoria="tecnologia">
+                        <div class="curso-imagem">
+                            <img
+                                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600"
+                                alt="Equipe trabalhando com tecnologia e computadores."
+                            >
+                            <span class="categoria">Tecnologia</span>
+                        </div>
+
+                        <div class="curso-conteudo">
+                            <span class="nivel">INTERMEDIÁRIO</span>
+                            <h3>Banco de Dados</h3>
+                            <p>
+                                Conheça SQL, tabelas, consultas e
+                                organização de informações.
+                            </p>
+                            <a href="#inscricao" class="curso-link"
+                               data-curso="Banco de Dados">
+                                Quero conhecer →
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="resultado-filtro" id="resultado-filtro" aria-live="polite">
+                    6 cursos disponíveis.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="sobre secao" id="sobre">
+            <div class="container sobre-conteudo">
+
+                <div>
+                    <span class="etiqueta">QUEM SOMOS</span>
+                    <h2>Aprender é o primeiro passo para transformar sua história.</h2>
+
+                    <p>
+                        A Academia Pro é uma plataforma de cursos e
+                        treinamentos criada para incentivar o aprendizado
+                        contínuo e o crescimento profissional.
+                    </p>
+
+                    <p>
+                        Acreditamos que a educação deve ser acessível,
+                        prática e conectada às necessidades do mercado
+                        de trabalho.
+                    </p>
+
+                    <a href="#inscricao" class="botao principal">
+                        Comece agora →
+                    </a>
+                </div>
+
+                <div class="sobre-destaques">
+                    <div class="destaque-item">
+                        <span>01</span>
+                        <div>
+                            <h3>Aprendizado prático</h3>
+                            <p>Conteúdos voltados para situações reais.</p>
+                        </div>
+                    </div>
+
+                    <div class="destaque-item">
+                        <span>02</span>
+                        <div>
+                            <h3>Desenvolvimento contínuo</h3>
+                            <p>Conhecimentos para evoluir profissionalmente.</p>
+                        </div>
+                    </div>
+
+                    <div class="destaque-item">
+                        <span>03</span>
+                        <div>
+                            <h3>Novas oportunidades</h3>
+                            <p>Prepare-se para os desafios do mercado.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- DIFERENCIAIS -->
+        <section class="secao diferenciais" id="diferenciais">
+            <div class="container">
+
+                <div class="titulo-secao">
+                    <span class="etiqueta">NOSSOS DIFERENCIAIS</span>
+                    <h2>Uma experiência de aprendizado completa</h2>
+                </div>
+
+                <div class="grade-diferenciais">
+
+                    <article class="diferencial-card">
+                        <div class="icone">💻</div>
+                        <h3>Flexibilidade</h3>
+                        <p>Estude de onde estiver e organize sua rotina.</p>
+                    </article>
+
+                    <article class="diferencial-card">
+                        <div class="icone">🎯</div>
+                        <h3>Foco na carreira</h3>
+                        <p>Aprenda habilidades importantes para sua profissão.</p>
+                    </article>
+
+                    <article class="diferencial-card">
+                        <div class="icone">📚</div>
+                        <h3>Conteúdo atualizado</h3>
+                        <p>Conhecimentos alinhados às demandas atuais.</p>
+                    </article>
+
+                    <article class="diferencial-card">
+                        <div class="icone">🚀</div>
+                        <h3>Novos desafios</h3>
+                        <p>Amplie suas possibilidades profissionais.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- INSCRIÇÃO -->
+        <section class="secao inscricao" id="inscricao">
+
+            <div class="container inscricao-container">
+
+                <div class="inscricao-texto">
+                    <span class="etiqueta">DÊ O PRÓXIMO PASSO</span>
+                    <h2>Inscreva-se e comece a construir seu futuro!</h2>
+
+                    <p>
+                        Preencha seus dados e indique seus interesses.
+                        Nossa equipe poderá entrar em contato com você.
+                    </p>
+
+                    <p class="aviso">
+                        O preenchimento do formulário representa
+                        uma manifestação de interesse nos treinamentos.
+                    </p>
+                </div>
+
+                <form class="formulario" id="form-inscricao">
+
+                    <h3>Formulário de interesse</h3>
+
+                    <div class="campo">
+                        <label for="nome-usuario">Nome completo</label>
+                        <input
+                            type="text"
+                            id="nome-usuario"
+                            name="nome"
+                            minlength="3"
+                            required
+                            placeholder="Digite seu nome"
+                            aria-describedby="dica-nome"
+                        >
+                        <small id="dica-nome">Mínimo de 3 caracteres.</small>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email-usuario">E-mail</label>
+                        <input
+                            type="email"
+                            id="email-usuario"
+                            name="email"
+                            required
+                            placeholder="seuemail@email.com"
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone</label>
+                        <input
+                            type="tel"
+                            id="telefone"
+                            name="telefone"
+                            placeholder="(00) 00000-0000"
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="curso">Qual curso deseja conhecer?</label>
+                        <select id="curso" name="curso" required>
+                            <option value="">Selecione um curso</option>
+                            <option>Informática Básica</option>
+                            <option>Desenvolvimento Web</option>
+                            <option>Lógica de Programação</option>
+                            <option>Gestão e Administração</option>
+                            <option>Desenvolvimento Profissional</option>
+                            <option>Banco de Dados</option>
+                        </select>
+                    </div>
+
+                    <fieldset>
+                        <legend>Qual modalidade prefere?</legend>
+
+                        <label class="opcao">
+                            <input type="radio" name="modalidade"
+                                   value="Online" required>
+                            Online
+                        </label>
+
+                        <label class="opcao">
+                            <input type="radio" name="modalidade"
+                                   value="Presencial">
+                            Presencial
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Quais áreas também interessam a você?</legend>
+
+                        <label class="opcao">
+                            <input type="checkbox" name="interesses"
+                                   value="Tecnologia">
+                            Tecnologia
+                        </label>
+
+                        <label class="opcao">
+                            <input type="checkbox" name="interesses"
+                                   value="Gestão">
+                            Gestão
+                        </label>
+
+                        <label class="opcao">
+                            <input type="checkbox" name="interesses"
+                                   value="Informática">
+                            Informática
+                        </label>
+                    </fieldset>
+
+                    <div class="campo">
+                        <label for="mensagem">Conte-nos seus objetivos</label>
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="3"
+                            placeholder="O que você deseja aprender?"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="botao enviar">
+                        Enviar minha inscrição →
+                    </button>
+
+                    <p id="mensagem-sucesso" role="status"
+                       aria-live="polite"></p>
+
+                </form>
+            </div>
+        </section>
+
+        <!-- CHAMADA FINAL -->
+        <section class="chamada-final">
+            <div class="container">
+                <h2>O conhecimento abre caminhos.</h2>
+                <p>Escolha aprender. Escolha evoluir. Escolha seu futuro.</p>
+                <a href="#cursos" class="botao branco">Ver todos os cursos</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container">
+            <h2>ACADEMIA<span>PRO.</span></h2>
+            <p>Educação, conhecimento e oportunidades para todos.</p>
+            <p>© 2026 Academia Pro. Todos os direitos reservados.</p>
+            <a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
